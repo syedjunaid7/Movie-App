@@ -4,9 +4,11 @@
   justify-content: center;
   flex-wrap: wrap;
   height: 100vh;
-  background-image: url('https://img.freepik.com/free-photo/3d-mountain-landscape-with-purple-sunset-sky_1048-8133.jpg?w=1060&t=st=1686147246~exp=1686147846~hmac=285203d0657543c3816a462b9ed58a36f6b53284247f4079491e78d949d66d36');
+  /* background-image: url('https://img.freepik.com/free-photo/3d-mountain-landscape-with-purple-sunset-sky_1048-8133.jpg?w=1060&t=st=1686147246~exp=1686147846~hmac=285203d0657543c3816a462b9ed58a36f6b53284247f4079491e78d949d66d36'); */
   background-position: center;
   background-size: cover;
+  background: rgb(231,185,205);
+background: radial-gradient(circle, rgba(231,185,205,1) 0%, rgba(228,148,233,1) 100%);
   color: #fff;
 
 }
@@ -111,7 +113,7 @@
   }
   .card {
     flex-basis: 41%;
-    height: 40vh;
+    height: 50vh;
     padding: 0;
   }
   
