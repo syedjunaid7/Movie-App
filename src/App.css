@@ -101,7 +101,7 @@ background: radial-gradient(circle, rgba(231,185,205,1) 0%, rgba(228,148,233,1) 
   opacity: 1;
  }
 
- @media only screen and (max-width: 767px) {
+ @media only screen and (max-width: 700px) {
   .App{
     height: 100%;
   }
